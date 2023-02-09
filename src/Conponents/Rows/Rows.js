@@ -19,7 +19,7 @@ function Rows({ title, fetchUrl, id, isLargeRow }) {
         }
         getMovies()
     },[fetchUrl])
-
+    console.log(movies);
     return (
         <>
          <h2 className="row_title">{title}</h2>
