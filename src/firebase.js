@@ -2,14 +2,14 @@ import firebase from "firebase";
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyCTnzaYsuI9_R2AA-n3_pflBDpQN6-vdV8",
-    authDomain: "netflix-clone-nitish.firebaseapp.com",
-    projectId: "netflix-clone-nitish",
-    storageBucket: "netflix-clone-nitish.appspot.com",
-    messagingSenderId: "1055349967695",
-    appId: "1:1055349967695:web:785be1695187e62aec933a",
-    measurementId: "G-4G3VRQPM7Q",
-};
+    apiKey: "AIzaSyBl9LdiexYqRFwhhOqYq5uq54y38NeQwNE",
+    authDomain: "nf-project-nitish.firebaseapp.com",
+    projectId: "nf-project-nitish",
+    storageBucket: "nf-project-nitish.appspot.com",
+    messagingSenderId: "913412224998",
+    appId: "1:913412224998:web:4673f432e5532ab6830827",
+    measurementId: "G-YNQSB2W23X"
+  };
 
 const app = !firebase.apps.length
     ? firebase.initializeApp(firebaseConfig)
